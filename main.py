@@ -5,6 +5,7 @@ def main(lado1, lado2, lado3):
         print("No es un triangulo valido")
     else:
         print("Es un triangulo")
+    triangulo_por_lado
         
 # Datos 
 a = int(input("Ingrese el valor del lado a: "))
@@ -23,3 +24,16 @@ elif Anguloa>90 or Angulob>90 or Anguloc>90:
     print(f"Su triangulo tiene un angulo mayor a 90°\nes un triangulo obtusangulo\Angulo A--> {Anguloa}°\nAngulo B-->{Angulob}°\nAngulo C-->{Anguloc}°hhhh")
 else:
     print(f"Su triangulo no tiene angulos mayores o iguales a 90°\es un angulo acutangulo\nAngulo A-->{Anguloa}°\nAngulo B--> {Angulob}°\nAngulo C-->{Anguloc}°")
+
+def triangulo_por_lado(lado1,lado2,lado3):
+    if lado1 ==lado2 == lado3:
+        print("es un triangilo equilatero")
+    elif lado1  ==lado2 != lado3:
+        print("es un triangilo isosceles")
+    elif lado1 != lado2 != lado3:
+        print("es un triangilo escaleno ")
+
+
+
+
+
