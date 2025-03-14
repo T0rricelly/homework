@@ -8,6 +8,7 @@ plt.ylabel("Lado2")
 plt.title("Triangulo")
 plt.show()
 
-# pruba
+# pruba de git
+
 
 
